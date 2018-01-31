@@ -674,7 +674,7 @@ fi
 
 if [ $METRICS == "true" ]
 then
-	sleep 30
+	sleep 90
 	echo $(date) "- Deploying Metrics"
 	if [ $AZURE == "true" ]
 	then
@@ -695,7 +695,7 @@ fi
 
 if [ $LOGGING == "true" ] 
 then
-	sleep 60
+	sleep 90
 	echo $(date) "- Deploying Logging"
 	if [ $AZURE == "true" ]
 	then
